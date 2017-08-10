@@ -1,0 +1,37 @@
+pwd
+ls
+
+Create a new folder from windows and check it from Git Bash. 
+Create a new folder from Git Bash and check it from Windows. 
+
+Configure Git Bash with Github online accoutn:
+
+git config --global user.name "blaize21m"
+git config --global user.email blaize21m@gmail.com
+
+
+Clone to Github:
+git clone https://github.com/HelloBlaize/Python.git
+
+ls
+
+Add to Github:
+Git add hellopython.py
+Git status
+
+Commit to Github: 
+git commit -m "Commit 001" hellopython.py <==== -m, for message
+
+Push to Github:
+git push -u origin master  <===== -u, mode. 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 365 bytes | 365.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/HelloBlaize/Python.git
+   02c13f9..5cc8437  master -> master
+Branch master set up to track remote branch master from origin.
+
+
+***** Learn about New Branch for the commit. 
